@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneaker Verification</title>
+    <link rel="stylesheet" href="css/verifySneaker.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Verify Sneaker Ownership</h1>
+        <input type="text" id="sneakerIdToVerify" placeholder="Enter Sneaker Serial Number">
+        <button id="verifySneakerButton">Verify Sneaker</button>
+        <div id="sneakerDetails"></div>
+        <button class="button2" onclick="window.location.href='/sneaker-auth-admin/transfer.html';">Transfer Ownership</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+    <script src="js/verifySneaker.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 100%; /* Adjust the width as needed */
+    max-width: 500px; /* Ensures the container doesn't get too wide on larger screens */
+}
+
+input[type="text"] {
+    width: calc(100% - 20px); /* Adjusts the width to account for padding */
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px; /* Increased margin-top to provide more space above the button */
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#statusMessage {
+    text-align: left; /* Aligns with the text inputs */
+    margin-top: 20px; /* Visual separation from the button */
+    padding: 10px; /* Internal spacing */
+    background-color: #ddd; /* Slightly stands out from the container background */
+    border-radius: 5px; /* Consistency with other elements */
+    color: #333; /* Readable text color */
+}
+
+/* Additional styling to ensure consistency across the form */
+input:focus, button:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+/* Style adjustments for placeholder text */
+::placeholder {
+    color: #bbb;
+}
+
+#sneakerDetails {
+    text-align: left;
+    margin-top: 20px;
+}

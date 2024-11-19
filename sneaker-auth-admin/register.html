@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneaker Registration DApp</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sneaker Registration</h1>
+        <button id="connectWalletButton">Connect Wallet</button>
+        <div id="formContainer" class="hidden">
+            <input type="text" id="sneakerName" placeholder="Sneaker Name">
+            <input type="text" id="sneakerModel" placeholder="Sneaker Model">
+            <input type="text" id="sneakerSerialNumber" placeholder="Serial Number">
+            <button id="registerSneakerButton">Register Sneaker</button>
+        </div>
+        <div id="statusMessage"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
