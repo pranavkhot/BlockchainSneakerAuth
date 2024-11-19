@@ -1,7 +1,7 @@
 # 👟 Sneaker Authentication DApp
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/89a3eeb5-b525-4ff0-96a7-e59f3041b1fd" alt="Sneaker Authentication Banner", width="100%"/>
+  <img src="https://github.com/user-attachments/assets/60506634-5ca8-4a08-93e2-c385d1103aaf" alt="Sneaker Authentication Banner", width="100%"/>
 </p>
 
 **Sneaker Authentication DApp** is an innovative blockchain-based decentralized application aimed at creating a secure ecosystem for registering, verifying, and transferring ownership of sneakers. By leveraging Ethereum smart contracts, this DApp ensures transparency, security, and immutability, making it an ideal solution for sneaker enthusiasts, collectors, and marketplaces to authenticate and manage ownership.
